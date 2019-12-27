@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Atlas Grotesk Web Light Regular';
+  src: url('Atlas Grotesk Web Light Regular.eot');
+  src: url('Atlas Grotesk Web Light Regular.eot?#iefix') format('embedded-opentype'),
+       url('Atlas Grotesk Web Light Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AtlasGroteskWeb-Light';
+  src: url('AtlasGroteskWeb-Light.svg#AtlasGroteskWeb-Light') format('svg'),
+       url('AtlasGroteskWeb-Light.ttf') format('truetype'),
+       url('AtlasGroteskWeb-Light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+

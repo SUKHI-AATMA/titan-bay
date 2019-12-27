@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'GriffithGothicRegular';
+  src: url('GriffithGothicRegular.svg#GriffithGothicRegular') format('svg'),
+       url('GriffithGothicRegular.ttf') format('truetype'),
+       url('GriffithGothicRegular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GriffithGothic_Regular';
+  src: url('GriffithGothic_Regular.eot');
+  src: url('GriffithGothic_Regular.eot?#iefix') format('embedded-opentype'),
+       url('GriffithGothic_Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
