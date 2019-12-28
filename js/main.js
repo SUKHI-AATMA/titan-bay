@@ -43,10 +43,19 @@ $(document).ready(function () {
         }
 
 
-
-
     });
 
 
+var a = 0;
+$(window).scroll(function() {
+
+    var oTop = $('#graphAnimation').offset().top - window.innerHeight;
+    if (a == 0 && $(window).scrollTop() > oTop) {
+        console.log('graph');
+        $('.graph-wrap ').addClass('active');
+        $('.graph-wrap .col .per').addClass('active');
+    }
+
+});
 
 

@@ -384,77 +384,106 @@ section.graph{
                         .col{
                             display: flex;
                             flex-direction: column-reverse;
+                            @include transition(1.5s ease-in-out);
 
                             span.graph-line{
                                 width:30px;
+                                padding: 0;
+                                height: 0;
+                                @include transition(1.5s ease-in-out);
                             }
-                            span{
+                            span.per{
+                                opacity: 0;
                                 font-family: 'Atlas-Grotesk-Web-Regular';
                                 font-size: 13px;
                                 line-height: 26px;
                                 color: #929292;
                                 padding-bottom: 5px;
+
+                                &.active{
+                                    opacity: 1;
+                                    animation-delay: 7s;
+                                    @include transition(3s ease-in-out);
+                                }
                             }
                         }
                     }
                     
                     .graph1{
-                        .col{
-                            .msci{
-                                height: 50px;
-                                background-color: #677586;
-                            }
-                            .sp{
-                                height: 65px;
-                                background-color: #706E6A;
-                            }
-                            .pooled{
-                                height: 77px;
-                                background-color: #E4E0D5;
-                            }
-                            .quartile{
-                                height: 124px;
-                                background-color: #9DE7D2;
+                        &.active{
+                            .col{
+                                .msci{
+                                    @include transition(1.5s ease-in-out);
+                                    height: 50px;
+                                    background-color: #677586;
+                                }
+                                .sp{
+                                    @include transition(1.5s ease-in-out);
+                                    height: 65px;
+                                    background-color: #706E6A;
+                                }
+                                .pooled{
+                                    @include transition(1.5s ease-in-out);
+                                    height: 77px;
+                                    background-color: #E4E0D5;
+                                }
+                                .quartile{
+                                    @include transition(1.5s ease-in-out);
+                                    height: 124px;
+                                    background-color: #9DE7D2;
+                                }
                             }
                         }
                     }
                     .graph2{
-                        .col{
-                            .msci{
-                                height: 79px;
-                                background-color: #677586;
-                            }
-                            .sp{
-                                height: 103px;
-                                background-color: #706E6A;
-                            }
-                            .pooled{
-                                height: 122px;
-                                background-color: #E4E0D5;
-                            }
-                            .quartile{
-                                height: 195px;
-                                background-color: #9DE7D2;
+                        &.active{
+                            .col{
+                                .msci{
+                                    @include transition(1.5s ease-in-out);
+                                    height: 79px;
+                                    background-color: #677586;
+                                }
+                                .sp{
+                                    @include transition(1.5s ease-in-out);
+                                    height: 103px;
+                                    background-color: #706E6A;
+                                }
+                                .pooled{
+                                    @include transition(1.5s ease-in-out);
+                                    height: 122px;
+                                    background-color: #E4E0D5;
+                                }
+                                .quartile{
+                                    @include transition(1.5s ease-in-out);
+                                    height: 195px;
+                                    background-color: #9DE7D2;
+                                }
                             }
                         }
                     }
                     .graph3{
-                        .col{
-                            .msci{
-                                height: 98px;
-                                background-color: #677586;
-                            }
-                            .sp{
-                                height: 129px;
-                                background-color: #706E6A;
-                            }
-                            .pooled{
-                                height: 152px;
-                                background-color: #E4E0D5;
-                            }
-                            .quartile{
-                                height: 245px;
-                                background-color: #9DE7D2;
+                        &.active{
+                            .col{
+                                .msci{
+                                    @include transition(1.5s ease-in-out);
+                                    height: 98px;
+                                    background-color: #677586;
+                                }
+                                .sp{
+                                    @include transition(1.5s ease-in-out);
+                                    height: 129px;
+                                    background-color: #706E6A;
+                                }
+                                .pooled{
+                                    @include transition(1.5s ease-in-out);
+                                    height: 152px;
+                                    background-color: #E4E0D5;
+                                }
+                                .quartile{
+                                    @include transition(1.5s ease-in-out);
+                                    height: 245px;
+                                    background-color: #9DE7D2;
+                                }
                             }
                         }
                     }
@@ -519,11 +548,11 @@ section.portfolio{
                 font-size: 41px;
                 line-height: 60px;
                 color: #000000;
-                padding-bottom: 18px;
             }
             .row{   
                 background: linear-gradient(#faf8f2, #d9d9d8);         
                 padding: 0 116px;
+                margin-top: 18px;
                 p{
                     font-family: 'Atlas-Grotesk-Web-Light';
                     font-size: 17px;
