@@ -99,6 +99,39 @@ h1,h2,h3,h4,h5,a,p,span,input,button{
     align-items: flex-end;
 }
 
+.nav-down{
+    transition: top 0.2s ease-in-out;
+    -webkit-transition: top 0.2s ease-in-out;
+    -moz-transition: top 0.2s ease-in-out;
+    -ms-transition: top 0.2s ease-in-out;
+    -o-transition: top 0.2s ease-in-out;
+}
+
+.nav-up {
+    top: -137px;
+}
+
+.pd48{
+    padding: 70px 0;
+    transition-property: all;
+    transition-duration: .5s;
+}
+.bigHeader{
+    padding: 70px 0;
+    transition-property: all;
+    transition-duration: .5s;
+}
+.darkBlackBG{
+    background: rgb(0, 0, 0);
+    transition-property: all;
+    transition-duration: .3s;
+}
+.transparent{
+    background: transparent !important;
+    transition-property: all;
+    transition-duration: .5s;
+}
+
 // header
 header{
     position: fixed;
@@ -106,7 +139,7 @@ header{
     left: 0;
     z-index: 10;
     width: 100%;
-    padding: 70px 0;
+    padding: 20px 0;
     @include transition(.2s ease-in-out);
 
     .container{
@@ -325,7 +358,7 @@ section.graph{
 
             .inner-block{
                 margin-top: 40px;
-                .col{
+                > .col{
                     width: 309px;
                     .head{
                         p{
@@ -340,10 +373,90 @@ section.graph{
                         }
                     }
                     .graph-wrap{
+                        display: flex;
+                        align-items: flex-end;
+                        justify-content: space-around;
                         height: 295px;
                         border-bottom: 1px solid rgba(150, 150, 150, .4);
                         -webkit-background-clip: padding-box; /* for Safari */
                         background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+                    
+                        .col{
+                            display: flex;
+                            flex-direction: column-reverse;
+
+                            span.graph-line{
+                                width:30px;
+                            }
+                            span{
+                                font-family: 'Atlas-Grotesk-Web-Regular';
+                                font-size: 13px;
+                                line-height: 26px;
+                                color: #929292;
+                                padding-bottom: 5px;
+                            }
+                        }
+                    }
+                    
+                    .graph1{
+                        .col{
+                            .msci{
+                                height: 50px;
+                                background-color: #677586;
+                            }
+                            .sp{
+                                height: 65px;
+                                background-color: #706E6A;
+                            }
+                            .pooled{
+                                height: 77px;
+                                background-color: #E4E0D5;
+                            }
+                            .quartile{
+                                height: 124px;
+                                background-color: #9DE7D2;
+                            }
+                        }
+                    }
+                    .graph2{
+                        .col{
+                            .msci{
+                                height: 79px;
+                                background-color: #677586;
+                            }
+                            .sp{
+                                height: 103px;
+                                background-color: #706E6A;
+                            }
+                            .pooled{
+                                height: 122px;
+                                background-color: #E4E0D5;
+                            }
+                            .quartile{
+                                height: 195px;
+                                background-color: #9DE7D2;
+                            }
+                        }
+                    }
+                    .graph3{
+                        .col{
+                            .msci{
+                                height: 98px;
+                                background-color: #677586;
+                            }
+                            .sp{
+                                height: 129px;
+                                background-color: #706E6A;
+                            }
+                            .pooled{
+                                height: 152px;
+                                background-color: #E4E0D5;
+                            }
+                            .quartile{
+                                height: 245px;
+                                background-color: #9DE7D2;
+                            }
+                        }
                     }
                 }
             }
@@ -469,6 +582,7 @@ section.portfolio{
             background: url(../../images/bg-img.jpg) no-repeat top;
             background-size: contain;
             height: 387px;
+            margin-top: 72px;
 
             .row{
                 max-width: 1062px;
@@ -585,7 +699,7 @@ section.fingertips{
 }
 
 
-// foter
+// footer
 
 footer{
     background-color: #2C2A26;
