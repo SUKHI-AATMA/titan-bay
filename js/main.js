@@ -1,5 +1,13 @@
 $(document).ready(function () {
 
+    $('.burger-menu a, .overlay-body').on("click tap", function () {
+        $('.menu-wrap nav  ul').toggleClass('active');
+        $('.burger-menu a span').toggleClass('open');
+        $('header').toggleClass('transparent');
+        $('.overlay-body').toggleClass('active');
+    });
+
+
         var didScroll;
         var lastScrollTop = 0;
         var delta = 0;
@@ -25,7 +33,7 @@ $(document).ready(function () {
 
             if (st > lastScrollTop && st > navbarHeight) {
                 // Scroll Down
-                $('header').removeClass('nav-down pd48').addClass('nav-up');
+                $('header').removeClass('nav-down pd70').addClass('nav-up');
             } else {
                 // Scroll Up
                 if (st + $(window).height() < $(document).height()) {
@@ -35,9 +43,9 @@ $(document).ready(function () {
             lastScrollTop = st;
 
             if (st == 0 && st <= 10) {
-                $('header').removeClass('darkBlackBG').addClass('transparent pd48');
+                $('header').removeClass('darkBlackBG').addClass('transparent pd70');
             } else {
-                $('header').removeClass('transparent pd48', 1000).addClass('darkBlackBG');
+                $('header').removeClass('transparent pd70', 1000).addClass('darkBlackBG');
             }
 
         }

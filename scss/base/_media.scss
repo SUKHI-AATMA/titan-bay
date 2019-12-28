@@ -1,16 +1,9 @@
-@media screen and (max-width:1366px){
-
-    section.banner .box-shadow{
-        //height: 450px;
-    }
-    section.banner .container h1{
-        height: 200px;
-        margin-bottom: 70px;
-    }
-    
-}
-
 @media screen and (max-width:1280px){
+    .pd70{
+        padding: 40px 0;
+        transition-property: all;
+        transition-duration: .5s;
+    }
     section.portfolio .container{
         max-width: 1100px;
     }
@@ -22,4 +15,393 @@
         max-width: 980px;
         padding: 50px 120px;
     }
+}
+
+
+@media screen and (max-width:1199px){
+    header .container{
+        padding: 0 30px;
+    }
+    section.private .container{
+        max-width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    section.graph .container{
+        max-width: 900px;
+    }
+    section.graph .container .row .inner-block>.col{
+        width: 30%;
+    }
+    section.portfolio .container {
+        max-width: 100%;
+        padding: 0 30px;
+    }
+    section.portfolio .container .block-1 .row,
+    section.portfolio .container .block-1 h2{
+        padding: 0 50px;
+    }
+    section.portfolio .container .block-2 {
+        background-size: cover;
+        height: 297px;
+    }
+    section.portfolio .container .block-2 .row{
+        max-width: 80%;
+        padding: 30px 50px;
+    }
+    section.portfolio .container .block-2 .row .col {
+        width: 30%;
+    }
+    
+    section.portfolio .container .block-2 .row .col p.num {
+        font-size: 32px;
+        line-height: 26px;
+    }
+    section.fingertips{
+        background-size: cover;
+        height: 650px;
+    }
+    section.fingertips .container .block{
+        padding-top: 120px;
+        margin-left: 160px;
+    }
+
+    footer .row{
+        padding: 0 30px;
+    }
+    footer .row .container{
+        max-width: 100%;
+        //padding: 0 30px;
+    }
+
+}
+
+
+@media screen and (max-width:991px){
+    section.banner .container{
+        max-width: 100%;
+        padding: 0 30px;
+    }
+    section.banner .container h1{
+        font-size: 34px;
+        line-height: 45px;
+    }
+    section.banner .container .block .box{
+        width: 32%;
+        padding: 50px 34px 24px;
+    }
+
+    section.best .container{
+        max-width: 100%;
+        padding: 0 30px;
+    }
+    section.best .container .img-block{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    section.best .container .img-block .img-box{
+        width: 30%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    section.private .container{
+        padding-top: 72px;
+    }
+    section.private .container .row .col .head p{
+        height: 90px;
+    }
+
+    section.graph .container{
+        max-width: 100%;
+        padding: 100px 0;
+        padding-left: 30px;
+        padding-right: 30px;   
+    }
+    section.graph .container .row h2{
+        font-size: 22px;
+        line-height: 36px;
+    }
+
+    section.portfolio .container .block-1 h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    section.portfolio .container .block-1 .row .inner-row{
+        flex-direction: column;
+    }
+    section.portfolio .container .block-1 .row .inner-row .col{
+        width: 100%;
+    }
+    section.portfolio .container .block-1 .row .inner-row .col .block{
+        max-width: 100%;
+    }
+    section.portfolio .container .block-1 .row .inner-row .col .block .bt-wrap{
+        margin-top: 40px;
+    }
+    section.portfolio .container .block-2 {
+        height: 260px;
+    }
+    section.portfolio .container .block-2 .row {
+        max-width: 90%;
+        padding: 30px 30px;
+    }
+    section.fingertips {
+        background-size: cover;
+        height: 500px;
+    }
+    section.fingertips .container .block {
+        padding-top: 60px;
+        margin-left: 60px;
+        width: 320px;
+    }
+    section.fingertips .container .block h2{
+        font-size: 24px;
+        line-height: 34px;
+        margin-bottom: 30px;
+    }
+    section.fingertips .container .block p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    section.fingertips .container .block .bt-wrap {
+        margin-top: 40px;
+    }
+
+
+}
+
+
+@media screen and (max-width:768px){
+    section.banner .container h1{
+        text-align: center;
+    }
+    section.banner .container h1 br{
+        display: block;
+    }
+    section.banner .container .block .box{
+        width: 220px;
+    }
+    
+    section.private .container .row.flex-wrap-top{
+        flex-direction: column;
+    }
+    section.private .container .row .col{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    section.private .container .row .col:last-child{
+        margin-bottom: 0;
+    }
+    section.private .container .row .col .head p {
+        height: auto;
+    }
+
+    section.graph .container {
+        max-width: 100%;
+        padding: 70px 0;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    section.graph .container .row .inner-block{
+        flex-direction: column;
+    }
+    section.graph .container .row .inner-block>.col{
+        width: 300px;
+        margin-bottom: 40px;
+    }
+    section.graph .container .row .inner-block>.col:last-child{
+        margin-bottom: 0;
+    }
+    section.graph .container .row .ft-wrap{
+        flex-wrap: wrap;
+    }
+    section.graph .container .row .ft-wrap .col{
+        margin-top: 20px;
+    }
+
+    section.portfolio {
+        padding: 70px 0 50px;
+    }
+    section.portfolio .container .block-1 h2 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    
+    section.portfolio .container .block-2{
+        height: 520px;
+    }
+    section.portfolio .container .block-2 .row{
+        max-width: 240px;
+        padding: 40px 20px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    section.portfolio .container .block-2 .row .col {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    section.portfolio .container .block-2 .row .col:last-child {
+        margin-bottom: 0px;
+    }
+
+    section.portfolio .container .block-3{
+        max-width: 100%;
+        padding-top: 72px;
+        flex-direction: column;
+    }
+    section.portfolio .container .block-3 .col{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    section.portfolio .container .block-3 .col:last-child{
+        margin-bottom: 0;
+    }
+
+    
+
+
+}
+
+@media screen and (max-width:480px){
+
+    header .container .burger-menu {
+        display: block;
+    }
+    header .container .menu-wrap{
+        nav {
+            ul {
+                background-color: $white;
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                flex-direction: column;
+                justify-content: center;
+                z-index: 999;
+                //position: absolute;
+                position: fixed;
+                top: 0px;
+                left: 0;
+                max-width: 240px;
+                width: 100%;
+                height: 100vh;
+                -webkit-transform: translate(-240px);
+                transform: translate(-240px);
+                transition: 0.5s;
+                -webkit-transition: 0.5s;
+                -moz-transition: 0.5s;
+                -ms-transition: 0.5s;
+                -o-transition: 0.5s;
+                padding: 0 40px;
+                overflow-y: auto;
+                
+                &.active {
+                    -webkit-transform: translate(0px);
+                    transform: translate(0px);
+
+                }
+                li {
+                    padding: 8px 0;
+                    display: block;
+                    width: 100%;
+                    color: $black;
+
+                    &.line{
+                        display: none;
+                    }
+                    &:last-child{
+                        padding-top: 16px;
+                    }
+
+                    a {
+                        color: $black;
+                        font-size: 18px;
+                        line-height: 20px;
+
+                    }
+                }
+            }
+            .burger-menu {
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+
+    section.banner .container h1 {
+        font-size: 24px;
+        line-height: 35px;
+    }
+    section.best .container .img-block .img-box{
+        width: 140px;
+        margin: 0 auto;
+    }
+    section.best .container .img-block .img-box img {
+        width: 100%;
+        height: auto;
+    }
+
+    section.private .container .row .bt-wrap{
+        margin-top: 80px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    section.private .container .row .bt-wrap p{
+        padding-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    section.portfolio .container .block-1 .row, 
+    section.portfolio .container .block-1 h2 {
+        padding: 0 20px;
+    }
+
+    section.portfolio .container .row .bt-wrap{
+        margin-top: 80px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    section.portfolio .container .row .bt-wrap p{
+        padding-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    section.fingertips .container .block {
+        padding-top: 50px;
+        margin-left: 30px;
+        width: 280px;
+    }
+
+    section.fingertips .container .block .bt-wrap{
+        margin-top: 80px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    section.fingertips .container .block .bt-wrap p{
+        padding-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    footer .row .container{
+        padding: 40px 0;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    footer .row .container .col:last-child{
+        margin-top: 30px;
+    }
+
+    footer .row .container .col .subscribe_form input{
+        width: 180px;
+    }
+    footer .row .container .col .subscribe_form button{
+        width: 100px;
+    }
+
 }
