@@ -139,16 +139,20 @@ h1,h2,h3,h4,h5,a,p,span,input,button{
     top: 0;
     bottom: 0;
     height: 100%;
-    transition-property: all;
-    transition-duration: 1s;
+    // transition-property: all;
+    // transition-duration: 1s;
     z-index: -9;
     
     &.active{
         background: rgba(0, 0, 0, 0.85) !important;
         z-index: 9;
-        transition-property: all;
-        transition-duration: 1s;
+        // transition-property: all;
+        // transition-duration: 1s;
     }
+}
+.bodyOverflowHidden{
+    //position: fixed;
+    overflow:hidden;
 }
 
 // header
@@ -435,6 +439,7 @@ section.graph{
                 padding-bottom: 32px;
             }
             p{
+                width: 100%;
                 font-family: 'Atlas-Grotesk-Web-Regular';
                 font-style: normal;
                 font-weight: normal;

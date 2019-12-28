@@ -86,7 +86,7 @@
         font-size: 34px;
         line-height: 45px;
     }
-    section.banner .container .block .box{
+    section.banner .container .block-wrap .block .box{
         width: 32%;
         padding: 50px 34px 24px;
     }
@@ -173,14 +173,25 @@
 
 
 @media screen and (max-width:768px){
+    section.banner .container{
+        align-items:flex-start
+    }
     section.banner .container h1{
         text-align: center;
     }
     section.banner .container h1 br{
         display: block;
     }
-    section.banner .container .block .box{
-        width: 220px;
+    section.banner .container .block-wrap .block .box{
+        width: 240px;
+    }
+    section.banner .container .block-wrap{
+        overflow-x: scroll;
+    }
+    section.banner .container .block-wrap .block{
+        z-index: 1;
+        width: 780px;
+        //overflow-x: scroll;
     }
     
     section.private .container .row.flex-wrap-top{
@@ -265,7 +276,9 @@
 }
 
 @media screen and (max-width:480px){
-
+    .pd70{
+        padding: 30px 0;
+    }
     header .container .burger-menu {
         display: block;
     }
@@ -334,9 +347,13 @@
         }
     }
 
+    section.banner{
+        height: calc(var(--vh, 1vh) * 100);
+    }
     section.banner .container h1 {
         font-size: 24px;
         line-height: 35px;
+        height: calc(100vh - 195px);
     }
     section.best .container .img-block .img-box{
         width: 140px;
@@ -360,6 +377,10 @@
     section.portfolio .container .block-1 .row, 
     section.portfolio .container .block-1 h2 {
         padding: 0 20px;
+    }
+
+    section.portfolio .container .block-2 .row{
+        background: #fff;
     }
 
     section.portfolio .container .row .bt-wrap{
@@ -387,6 +408,10 @@
         padding-right: 0px;
         margin-bottom: 20px;
     }
+    section.fingertips .container .block .bt-wrap a{
+        border: 1px solid #ffffff;
+        background-color: #fff;
+    }
 
     footer .row .container{
         padding: 40px 0;
@@ -403,5 +428,22 @@
     footer .row .container .col .subscribe_form button{
         width: 100px;
     }
+
+    section.graph .container .row .ft-wrap{
+        flex-direction: column;
+        margin: 0 auto;
+        width: 220px;
+    }
+    section.graph .container .row .ft-wrap .col{
+        display: block;
+    }
+    section.graph .container .row .ft-wrap .col p,
+    section.graph .container .row .ft-wrap .col span{
+        display: inline-block;
+    }
+    section.graph .container .row .ft-wrap .col p{
+        width: auto;
+    }
+
 
 }

@@ -1,11 +1,14 @@
 $(document).ready(function () {
 
-    $('.burger-menu a, .overlay-body').on("click tap", function () {
-        $('.menu-wrap nav  ul').toggleClass('active');
-        $('.burger-menu a span').toggleClass('open');
-        $('header').toggleClass('transparent');
-        $('.overlay-body').toggleClass('active');
-    });
+    if ($(window).width() <= 480) {
+        $('.burger-menu a, .overlay-body').on("click tap", function () {
+            $('.menu-wrap nav  ul').toggleClass('active');
+            $('.burger-menu a span').toggleClass('open');
+            $('header').toggleClass('transparent');
+            $('.overlay-body').toggleClass('active');
+            $('body').toggleClass('bodyOverflowHidden');
+        });
+    }
 
 
         var didScroll;
@@ -68,3 +71,8 @@ $(window).scroll(function() {
 
 
 
+
+// First we get the viewport height and we multiple it by 1% to get a value for a vh unit
+let vh = window.innerHeight * 0.01;
+// Then we set the value in the --vh custom property to the root of the document
+document.documentElement.style.setProperty('--vh', `${vh}px`);
