@@ -82,6 +82,10 @@
 
 
 @media screen and (max-width:991px){
+
+    section.banner .parallax{
+        background-attachment: scroll;
+    }
     section.banner .container{
         max-width: 100%;
         padding: 0 30px;
@@ -159,6 +163,7 @@
         // -webkit-background-size: cover;
         // -moz-background-size: cover;
         // -o-background-size: cover;
+        background-attachment: scroll;
         height: 500px;
     }
     section.fingertips .container .block {
