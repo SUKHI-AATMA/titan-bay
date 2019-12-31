@@ -87,7 +87,7 @@ $(document).ready(function () {
 var a = 0;
 $(window).scroll(function() {
 
-    var oTop1 = $('.graph1').offset().top - window.innerHeight + 100;
+    var oTop1 = $('.graph1').offset().top - window.innerHeight + 50;
     //console.log(oTop1)
     if (a == 0 && $(window).scrollTop() > oTop1) {
         //console.log('graph11');
@@ -98,7 +98,7 @@ $(window).scroll(function() {
         
     }
 
-    var oTop2 = $('.graph2').offset().top - window.innerHeight  + 100;
+    var oTop2 = $('.graph2').offset().top - window.innerHeight  + 50;
     if (a == 0 && $(window).scrollTop() > oTop2) {
         //console.log('graph222');
         setTimeout(function(){
@@ -107,7 +107,7 @@ $(window).scroll(function() {
         }, 600);
     }
 
-    var oTop3 = $('.graph3').offset().top - window.innerHeight  + 100;
+    var oTop3 = $('.graph3').offset().top - window.innerHeight  + 50;
     if (a == 0 && $(window).scrollTop() > oTop3) {
         //console.log('graph3333');
         setTimeout(function(){

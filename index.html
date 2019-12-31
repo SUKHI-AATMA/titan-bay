@@ -11,16 +11,26 @@
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
     <link rel="stylesheet" href="dist/css/style.css">
     <link rel="stylesheet" href="dist/css/animate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
 
     <title>Titan Bay</title>
 
 </head>
 
-<body class="home-pg">
+<body>  
+    <div class="landscape-wrap">
+        <div class="message">
+            Please rotate your device!
+        </div>
+        <div class="phone">.</div>
+    </div>  
+
     <div class="overlay-body"></div>
+
     <header class="nav-down pd70 wow fadeInDown" data-wow-delay="0.4s">
         <div class="container flex-wrap">
-            <div class="logo-wrap" >
+            <div class="logo-wrap">
                 <a href="index.html">
                     <img src="images/logo-white.svg" alt="Titan Bay">
                 </a>
@@ -51,19 +61,19 @@
             <div class="parallax"></div>
             <div class="container">
                 <h1 class="flex-wrap-center wow fadeInUp" data-wow-delay="1.3s">Strategic access <br>for Strategic investors</h1>
-                <div class="block-wrap scrollBlock">
-                    <div class="block flex-wrap-top">
-                        <div class="box wow fadeInUp" data-wow-delay="1.8s">
+                <div class="block-wrap" id="BannerCarousel">
+                    <div class="block flex-wrap-top owl-carousel owl-theme">
+                        <div class="box item wow fadeInUp" data-wow-delay="1.8s">
                             <p class="title">Curated</p>
                             <p>Access to profession <br> curated private equity firms</p>
                         </div>
-                        <div class="box wow fadeInUp" data-wow-delay="2.1s">
+                        <div class="box item wow fadeInUp" data-wow-delay="2.1s">
                             <p class="title">Individual</p>
                             <p>Select only the <br>opportunities tha suit you</p>
                         </div>
-                        <div class="box wow fadeInUp" data-wow-delay="2.4s">
+                        <div class="box item wow fadeInUp" data-wow-delay="2.4s">
                             <p class="title">Consolidated</p>
-                            <p>Pool your investment to create institutional sized tickets</p>
+                            <p>Pool your investment to create <br>institutional sized tickets</p>
                         </div>
                     </div>  
                 </div> 
@@ -130,7 +140,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row wow fadeInUp" data-wow-delay="1.1s">
+                <div class="row wow fadeInUp" data-wow-delay="0.7s">
                     <div class="bt-wrap flex-wrap-center">
                         <p>Ready to start investing?</p>
                         <a href="javascript:;">SIGN UP</a>
@@ -219,7 +229,7 @@
                         </div>
                     </div>
                     <div class="ft-wrap wow fadeInUp" data-wow-delay="1.9s">
-                        <div class="col flex-wrap">
+                        <div class="col flex-wrap ">
                             <span class="one"></span>
                             <p>MSCI World</p>
                         </div>
@@ -312,7 +322,6 @@
         </section>  
 
     </main>
-
     <footer>
         <div class="row">
             <div class="container flex-wrap">
@@ -351,10 +360,11 @@
 
 <script src="dist/js/jquery-3.4.1.min.js"></script>
 <script src="dist/js/wow.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 <script src="dist/js/main.js"></script>
 
 <script>
-new WOW().init();
+    new WOW().init();
 </script>
 
 </html>

@@ -198,10 +198,10 @@
         padding: 0;
     }
 
-    .home-pg section.banner .container h1{
+    section.banner .container h1{
         text-align: center;
         height: calc(100vh - 195px);
-        padding: 0 30px;
+        //padding: 0 30px;
     }
     section.banner .container h1 br{
         display: block;
@@ -220,6 +220,9 @@
         width: 250px;
         padding: 50px 20px 20px;
         margin: 0 auto;
+    }
+    section.banner .container .block-wrap .block.owl-carousel button.disabled{
+        opacity: .5;
     }
     section.banner .container .block-wrap .block.owl-carousel{
         .owl-next,
@@ -408,7 +411,7 @@
         height: calc(var(--vh, 1vh) * 100);
     }
     section.banner .container h1 {
-        font-size: 24px;
+        font-size: 30px;
         line-height: 35px;
     }
     section.best .container .img-block .img-box{
@@ -498,8 +501,15 @@
         width: auto;
     }
 
-
 }
+
+@media screen and (max-width:360px){
+    section.banner .container h1{
+        font-size: 27px;
+        line-height: 32px;
+    }
+}
+
 
 
 @media screen and (max-width:330px){
@@ -509,8 +519,12 @@
 }
 
 
-/* only when orientation is in portrait mode */
-// @media all and (orientation:landscape) {
+/* only when orientation is in landscape mode */
+// @media only screen 
+//   and (min-device-width: 375px) 
+//   and (max-device-width: 812px) 
+//   and (-webkit-min-device-pixel-ratio: 3)
+//   and (orientation: landscape) { 
 //     .landscape-wrap{
 //         background-color: #000;
 //         background-color: #000;

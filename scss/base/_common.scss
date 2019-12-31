@@ -947,6 +947,7 @@ footer{
 
 
 .landscape-wrap{
+    
     .phone {
         height: 100px;
         width: 50px;
@@ -959,16 +960,16 @@ footer{
     
     }
     .message {
-    color: white;
-    font-size: 20px;
-    letter-spacing: 7px;
-    margin-bottom: 20px;
-    display: none;
-    @include transition(.3s ease-in-out);
+        color: white;
+        font-size: 20px;
+        letter-spacing: 7px;
+        margin-bottom: 20px;
+        display: none;
+        @include transition(.3s ease-in-out);
     }
     
     @keyframes rotate {
-    0% {
+        0% {
             transform: rotate(0deg)
         }
         50% {
