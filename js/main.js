@@ -1,9 +1,9 @@
 $(document).ready(function () {
 
     if ($(window).width() <= 480) {
-        $('.burger-menu menuBar, .overlay-body').on("click tap", function () {
+        $('.burger-menu .menuBar, .overlay-body').on("click tap", function () {
             $('.menu-wrap nav  ul').toggleClass('active');
-            $('.burger-menu menuBar span').toggleClass('open');
+            $('.burger-menu .menuBar span').toggleClass('open');
             $('header').toggleClass('transparent');
             $('.overlay-body').toggleClass('active');
             $('body').toggleClass('bodyOverflowHidden');
