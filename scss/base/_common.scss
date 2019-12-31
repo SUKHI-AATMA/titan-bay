@@ -195,10 +195,12 @@ header{
         }
         .burger-menu {
             display: none;
-            a {
+            .menuBar {
                 display: inline-block;
                 padding: 5px 0 15px;
                 line-height: 0;
+                cursor: pointer;
+                display: block;
                 span {
                     position: relative;
                     width: 25px;
