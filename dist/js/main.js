@@ -20,6 +20,7 @@ $(document).ready(function () {
             touchDrag: false,
             responsive: {
                 0: {
+                    margin:0,
                     center: true,
                     items: 1,
                     mouseDrag: true,
@@ -93,7 +94,7 @@ $(window).scroll(function() {
         setTimeout(function(){
             $('.graph-wrap.graph1').delay(5).addClass('active');
             $('.graph-wrap.graph1 .col .per').addClass('active');
-        }, 50);
+        }, 500);
         
     }
 
@@ -103,7 +104,7 @@ $(window).scroll(function() {
         setTimeout(function(){
             $('.graph-wrap.graph2').addClass('active');
             $('.graph-wrap.graph2 .col .per').addClass('active');
-        }, 50);
+        }, 600);
     }
 
     var oTop3 = $('.graph3').offset().top - window.innerHeight  + 100;
@@ -112,7 +113,7 @@ $(window).scroll(function() {
         setTimeout(function(){
             $('.graph-wrap.graph3').addClass('active');
             $('.graph-wrap.graph3 .col .per').addClass('active');
-        }, 50);
+        }, 700);
     }
 
 });

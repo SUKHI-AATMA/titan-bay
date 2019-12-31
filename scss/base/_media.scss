@@ -155,7 +155,10 @@
         padding: 30px 30px;
     }
     section.fingertips {
-        background-size: cover;
+        // background-size: cover;
+        // -webkit-background-size: cover;
+        // -moz-background-size: cover;
+        // -o-background-size: cover;
         height: 500px;
     }
     section.fingertips .container .block {
@@ -185,17 +188,28 @@
     // section.banner .container{
     //     align-items:flex-start
     // }
-    section.banner .container h1{
+    
+    .home-pg section.banner .container{
+        padding: 0;
+    }
+
+    .home-pg section.banner .container h1{
         text-align: center;
         height: calc(100vh - 195px);
+        padding: 0 30px;
     }
     section.banner .container h1 br{
         display: block;
     }
     section.banner .container .block-wrap .block .box{
         //width: 100%;
-        width: 240px;
+        width: calc(100% - 40px);
+        margin: 0;
+        margin-right: 10px;
         // padding: 50px 20px 20px;
+    }
+    section.banner .container .block-wrap .block .box:last-child{
+        margin-right: 0;
     }
     section.banner .container .block-wrap .block.owl-carousel .box{
         width: 250px;

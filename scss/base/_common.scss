@@ -257,7 +257,7 @@ section.banner{
 
     .parallax{
         background: url(../../images/banner.jpg) no-repeat top;
-        background-size: cover;
+        //background-size: cover;
         height: 100vh;
 
         /* Create the parallax scrolling effect */
@@ -265,6 +265,9 @@ section.banner{
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
     }
 
     .box-shadow{
@@ -797,12 +800,16 @@ section.portfolio{
 
 // section 6
 section.fingertips{
-    background: url(../../images/banner-fingertips.jpg) no-repeat top;
-    background-size: 130%;
+    background: url(../../images/banner-fingertips.jpg) no-repeat;
+    background-size: cover;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     height: 818px;
     position: relative;
     background-attachment: fixed;
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
 
     .container{
