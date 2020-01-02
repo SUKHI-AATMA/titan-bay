@@ -1,0 +1,69 @@
+main.legal-term-main{
+    background-color: #F2F2F2;
+}
+section.legal-term-head{
+    position: relative;
+    overflow: hidden;
+    //height: 50vh;
+    height: 683px;
+    background-color: #0f2a47;
+
+    .container{
+        padding: 0 100px;
+        height: 100%;
+        h1{
+            font-family: 'Atlas-Grotesk-Web-Regular';
+            font-size: 49px;
+            line-height: 53px;
+            text-align: center;
+            color: #FFFFFF;
+
+            height: 100%;
+            align-items: center;
+        }
+    }
+}
+
+
+section.legal-term-body{
+    background-color: #F2F2F2;
+    padding-bottom: 100px;
+
+    .container{
+        max-width: 1185px;
+        width: 100%;
+        margin: 0 auto;
+        background-color: #fff;
+
+        border-radius: 5px;
+        -webkit-box-shadow: 0 1px 20px 0 rgba(69,90,100,0.08);
+        box-shadow: 0 1px 20px 0 rgba(69,90,100,0.08);
+        border: none;
+        
+        padding: 70px 40px;
+        position: relative;
+        margin-top: -200px;
+        z-index: 2;
+
+        .row{
+            p{
+                font-family: 'Griffith-Gothic-Light';
+                margin-bottom: 24px;
+                font-size: 14px;
+                line-height: 20px;
+                color: #082645;
+
+                strong{
+                    font-size: 16px;
+                    font-family: 'Griffith-Gothic-Regular';
+                    font-weight: bold;
+                }
+                a{
+                    text-decoration: underline;
+                    word-break: break-all;
+                }
+            }
+        }
+
+    }
+}

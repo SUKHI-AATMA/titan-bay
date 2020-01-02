@@ -10,8 +10,7 @@ $(document).ready(function () {
         });
     }
 
-    if($('#BannerCarousel').length)
-    {
+    if($('.home-page').length){
         var owlTeam = $('.owl-carousel');
         owlTeam.owlCarousel({
             dots: false,
