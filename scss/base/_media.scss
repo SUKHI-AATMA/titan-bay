@@ -19,7 +19,8 @@
 
 
 @media screen and (max-width:1199px){
-    header .container{
+    header .container,
+    section.legal-term-head .container{
         padding: 0 30px;
     }
     section.private .container{
@@ -78,6 +79,11 @@
         //padding: 0 30px;
     }
 
+    // legal page
+    section.legal-term-body .container{
+        max-width: 80%;
+    }
+
 }
 
 
@@ -90,7 +96,8 @@
         max-width: 100%;
         padding: 0 30px;
     }
-    section.banner .container h1{
+    section.banner .container h1,
+    section.legal-term-head .container h1{
         font-size: 34px;
         line-height: 45px;
     }
@@ -330,7 +337,15 @@
         margin-bottom: 0;
     }
 
-    
+    // legal page
+    section.legal-term-head{
+        height:60vh;
+    }
+    section.legal-term-body .container{
+        max-width: 85%;
+        padding: 50px 20px;
+        margin-top: -150px;
+    }
 
 
 }
@@ -410,7 +425,8 @@
     section.banner{
         height: calc(var(--vh, 1vh) * 100);
     }
-    section.banner .container h1 {
+    section.banner .container h1,
+    section.legal-term-head .container h1 {
         font-size: 30px;
         line-height: 35px;
     }
@@ -505,9 +521,14 @@
 }
 
 @media screen and (max-width:360px){
-    section.banner .container h1{
+    section.banner .container h1,
+    section.legal-term-head .container h1{
         font-size: 27px;
         line-height: 32px;
+    }
+
+    section.legal-term-body .container{
+        margin-top: -100px;
     }
 }
 
