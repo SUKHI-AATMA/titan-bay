@@ -345,7 +345,7 @@
     header .container .menu-wrap{
         nav {
             ul {
-                background-color: $white;
+                background-color: #fff;
                 -webkit-box-orient: vertical;
                 -webkit-box-direction: normal;
                 -ms-flex-direction: column;
@@ -378,7 +378,7 @@
                     padding: 8px 0;
                     display: block;
                     width: 100%;
-                    color: $black;
+                    color: #000;
 
                     &.line{
                         display: none;
@@ -388,7 +388,7 @@
                     }
 
                     a {
-                        color: $black;
+                        color: #000;
                         font-size: 18px;
                         line-height: 20px;
 
@@ -478,11 +478,12 @@
         margin-top: 30px;
     }
 
-    footer .row .container .col .subscribe_form input{
-        width: 180px;
+    footer .row .container .col .subscribe_form .input-group input{
+        width: 160px;
+        padding: 0 5px;
     }
-    footer .row .container .col .subscribe_form button{
-        width: 100px;
+    footer .row .container .col .subscribe_form .input-group button{
+        width: 120px;
     }
 
     section.graph .container .row .ft-wrap{

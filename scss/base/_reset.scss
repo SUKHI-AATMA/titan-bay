@@ -106,13 +106,13 @@ img {
 /**************************************************************************************/
 
 a {
-    color: $black;
+    color: #000;
     text-decoration: none;
     outline: 0 none;
 }
 
 a:hover {
-    color: $black;
+    color: #000;
     text-decoration: none;
 }
 
@@ -127,7 +127,7 @@ a:hover {
 
 body {
     position: relative;
-    color: $black;
+    color: #000;
     font-family: 'Griffith-Gothic-Regular';
     font-weight: 400;
     font-style: normal;
