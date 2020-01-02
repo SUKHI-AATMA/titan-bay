@@ -83,40 +83,44 @@ $(document).ready(function () {
 });
 
 
-var a = 0;
-$(window).scroll(function() {
+if($('.home-page').length){
 
-    var oTop1 = $('.graph1').offset().top - window.innerHeight + 50;
-    //console.log(oTop1)
-    if (a == 0 && $(window).scrollTop() > oTop1) {
-        //console.log('graph11');
-        setTimeout(function(){
-            $('.graph-wrap.graph1').delay(5).addClass('active');
-            $('.graph-wrap.graph1 .col .per').addClass('active');
-        }, 500);
-        
-    }
+    var a = 0;
+    $(window).scroll(function() {
 
-    var oTop2 = $('.graph2').offset().top - window.innerHeight  + 50;
-    if (a == 0 && $(window).scrollTop() > oTop2) {
-        //console.log('graph222');
-        setTimeout(function(){
-            $('.graph-wrap.graph2').addClass('active');
-            $('.graph-wrap.graph2 .col .per').addClass('active');
-        }, 600);
-    }
+        var oTop1 = $('.graph1').offset().top - window.innerHeight + 50;
+        //console.log(oTop1)
+        if (a == 0 && $(window).scrollTop() > oTop1) {
+            //console.log('graph11');
+            setTimeout(function(){
+                $('.graph-wrap.graph1').delay(5).addClass('active');
+                $('.graph-wrap.graph1 .col .per').addClass('active');
+            }, 500);
+            
+        }
 
-    var oTop3 = $('.graph3').offset().top - window.innerHeight  + 50;
-    if (a == 0 && $(window).scrollTop() > oTop3) {
-        //console.log('graph3333');
-        setTimeout(function(){
-            $('.graph-wrap.graph3').addClass('active');
-            $('.graph-wrap.graph3 .col .per').addClass('active');
-        }, 700);
-    }
+        var oTop2 = $('.graph2').offset().top - window.innerHeight  + 50;
+        if (a == 0 && $(window).scrollTop() > oTop2) {
+            //console.log('graph222');
+            setTimeout(function(){
+                $('.graph-wrap.graph2').addClass('active');
+                $('.graph-wrap.graph2 .col .per').addClass('active');
+            }, 600);
+        }
 
-});
+        var oTop3 = $('.graph3').offset().top - window.innerHeight  + 50;
+        if (a == 0 && $(window).scrollTop() > oTop3) {
+            //console.log('graph3333');
+            setTimeout(function(){
+                $('.graph-wrap.graph3').addClass('active');
+                $('.graph-wrap.graph3 .col .per').addClass('active');
+            }, 700);
+        }
 
+    });
+
+
+}
 
 
 // First we get the viewport height and we multiple it by 1% to get a value for a vh unit
