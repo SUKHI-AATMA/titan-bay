@@ -59,6 +59,35 @@ section.legal-term-body{
                 a{
                     text-decoration: underline;
                     word-break: break-all;
+
+                    &:hover{
+                        color:#0A253D;
+                        text-decoration: none;
+                    }
+                }
+            }
+            ol{
+                margin-left: 40px;
+                margin-bottom: 24px;
+                li{
+                    list-style-type: lower-roman;
+                    font-family: 'Griffith-Gothic-Light';
+                    font-size: 14px;
+                    line-height: 20px;
+                    color: #082645;
+                    padding-left: 4px;
+                }
+            }
+            ul{
+                margin-left: 40px;
+                margin-bottom: 24px;
+                li{
+                    list-style-type: disc;
+                    font-family: 'Griffith-Gothic-Light';
+                    font-size: 14px;
+                    line-height: 20px;
+                    color: #082645;
+                    padding-left: 4px;
                 }
             }
         }

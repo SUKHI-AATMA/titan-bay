@@ -79,6 +79,19 @@ $(document).ready(function () {
 
     }
 
+    if($('.work-page').length){
+        $('.accordion-body .heading').click(function() {
+            if(!$(this).parent().find('.content').hasClass('active')) {
+                $('.content').slideUp();
+                $('.sec-desc').removeClass('active');
+            }
+            $(this).find('.sec-desc').toggleClass('active');
+            $('.content').removeClass('active');
+            $(this).parent().find('.content').slideToggle();
+            $(this).parent().find('.content').toggleClass('active');
+        });    
+    }
+    
 
 });
 
@@ -118,6 +131,8 @@ if($('.home-page').length){
         }
 
     });
+
+    
 
 
 }
