@@ -914,6 +914,91 @@ section.work-head {
     }
 }
 
+section.elements{
+    padding: 100px 0;
+
+    .container{
+        max-width: 936px;
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+        
+        .row{
+            padding-bottom: 40px;
+
+            span{
+                font-family: 'Atlas-Grotesk-Web-Regular';
+                font-size: 12px;
+                line-height: 30px;
+                color: #48606B;
+                mix-blend-mode: normal;
+                opacity: 0.6;
+            }
+
+            &.row1{
+                p{
+                    font-family: 'Griffith-Gothic-Light';
+                    font-size: 61px;
+                    line-height: 80px;
+                    color: #000000;
+                }
+            }
+            &.row2{
+                p{
+                    font-family: 'Griffith-Gothic-Light';
+                    font-size: 41px;
+                    line-height: 60px;
+                    color: #000000;
+                }
+            }
+            &.row3{
+                p{
+                    font-family: 'Griffith-Gothic-Regular';
+                    font-size: 21px;
+                    line-height: 30px;
+                    color: #48606B;
+                }
+            }
+            &.row4{
+                p{
+                    font-family: 'Griffith-Gothic-Regular';
+                    font-size: 16px;
+                    line-height: 29px;
+                    color: #000000;
+                }
+            }
+            &.row5{
+                p{
+                    font-size: 12px;
+                    line-height: 26px;
+                    letter-spacing: 1.41176px;
+                    text-transform: uppercase;
+                    color: #0C2E4F;
+                }
+            }
+            &.row6{
+                p{
+                    font-family: 'Atlas-Grotesk-Web-Light';
+                    font-size: 17px;
+                    line-height: 36px;
+                    color: #60768D;
+                }
+            }
+            &.row7{
+                p{
+                    max-width: 439px;
+                    width: 100%;
+                    font-family: 'Atlas-Grotesk-Web-Regular';
+                    font-size: 12px;
+                    line-height: 26px;
+                    color: #5A6163;
+                }
+            }
+        }
+    
+    }
+}
+
 section.work-body{
     background-color: #faf8f2;
     .container{
