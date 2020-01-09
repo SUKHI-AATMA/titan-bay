@@ -37,6 +37,7 @@ $(document).ready(function () {
     }
 
 
+
     var didScroll;
     var lastScrollTop = 0;
     var delta = 0;
@@ -44,12 +45,13 @@ $(document).ready(function () {
 
     $(window).scroll(function (event) {
         didScroll = true;
+        hasScrolled();
     });
 
     setInterval(function () {
         if (didScroll) {
             //if ($(window).width() > 991) {
-            hasScrolled();
+                hasScrolled();
             //}
             didScroll = false;
         }
@@ -79,18 +81,7 @@ $(document).ready(function () {
 
     }
 
-    if($('.work-page').length){
-        $('.accordion-body .heading').click(function() {
-            if(!$(this).parent().find('.content').hasClass('active')) {
-                $('.content').slideUp();
-                $('.sec-desc').removeClass('active');
-            }
-            $(this).find('.sec-desc').toggleClass('active');
-            $('.content').removeClass('active');
-            $(this).parent().find('.content').slideToggle();
-            $(this).parent().find('.content').toggleClass('active');
-        });    
-    }
+    
     
 
 });
@@ -144,3 +135,21 @@ let vh = window.innerHeight * 0.01;
 document.documentElement.style.setProperty('--vh', `${vh}px`);
 
 
+var acc = document.getElementsByClassName("sec-desc");
+var i;
+
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+
+        if (panel.style.maxHeight) {
+            panel.style.maxHeight = null;
+            //console.log('hi');
+        } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+        } 
+        
+    });
+}

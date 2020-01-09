@@ -1,47 +1,95 @@
-@font-face {
-    font-family: 'Griffith-Gothic-Regular';
-    src: url('../../font/Griffith-Gothic-Regular/Griffith-Gothic-Regular.eot');
-    src: url('../../font/Griffith-Gothic-Regular/Griffith-Gothic-Regular.woff2') format('woff2'),
-        url('../../font/Griffith-Gothic-Regular/Griffith-Gothic-Regular.woff') format('woff'),
-        url('../../font/Griffith-Gothic-Regular/Griffith-Gothic-Regular.ttf') format('truetype'),
-        url('../../font/Griffith-Gothic-Regular/Griffith-Gothic-Regular.svg#Griffith-Gothic-Regular') format('svg'),
-        url('../../font/Griffith-Gothic-Regular/Griffith-Gothic-Regular.eot?#iefix') format('embedded-opentype');
-    font-weight: normal;
+// @font-face {
+//     @extend .griffithgothicregular;
+//     src: url('../../font/Griffith-Gothic-Regular/Griffith-Gothic-Regular.eot');
+//     src: url('../../font/Griffith-Gothic-Regular/Griffith-Gothic-Regular.woff2') format('woff2'),
+//         url('../../font/Griffith-Gothic-Regular/Griffith-Gothic-Regular.woff') format('woff'),
+//         url('../../font/Griffith-Gothic-Regular/Griffith-Gothic-Regular.ttf') format('truetype'),
+//         url('../../font/Griffith-Gothic-Regular/Griffith-Gothic-Regular.svg#Griffith-Gothic-Regular') format('svg'),
+//         url('../../font/Griffith-Gothic-Regular/Griffith-Gothic-Regular.eot?#iefix') format('embedded-opentype');
+//     font-weight: normal;
+//     font-style: normal;
+// }
+// @font-face {
+//     @extend .griffithgothiclight;
+//     src: url('../../font/Griffith-Gothic-Light/Griffith-Gothic-Light.eot');
+//     src: url('../../font/Griffith-Gothic-Light/Griffith-Gothic-Light.woff2') format('woff2'),
+//         url('../../font/Griffith-Gothic-Light/Griffith-Gothic-Light.woff') format('woff'),
+//         url('../../font/Griffith-Gothic-Light/Griffith-Gothic-Light.ttf') format('truetype'),
+//         url('../../font/Griffith-Gothic-Light/Griffith-Gothic-Light.svg#Griffith-Gothic-Light') format('svg'),
+//         url('../../font/Griffith-Gothic-Light/Griffith-Gothic-Light.eot?#iefix') format('embedded-opentype');
+//     font-weight: normal;
+//     font-style: normal;
+// }
+
+
+.griffithgothiclight {
+    font-family: "Griffith Gothic Lt";
+    font-display: swap;
     font-style: normal;
-}
-@font-face {
-    font-family: 'Griffith-Gothic-Light';
-    src: url('../../font/Griffith-Gothic-Light/Griffith-Gothic-Light.eot');
-    src: url('../../font/Griffith-Gothic-Light/Griffith-Gothic-Light.woff2') format('woff2'),
-        url('../../font/Griffith-Gothic-Light/Griffith-Gothic-Light.woff') format('woff'),
-        url('../../font/Griffith-Gothic-Light/Griffith-Gothic-Light.ttf') format('truetype'),
-        url('../../font/Griffith-Gothic-Light/Griffith-Gothic-Light.svg#Griffith-Gothic-Light') format('svg'),
-        url('../../font/Griffith-Gothic-Light/Griffith-Gothic-Light.eot?#iefix') format('embedded-opentype');
     font-weight: normal;
-    font-style: normal;
 }
-@font-face {
-    font-family: 'Atlas-Grotesk-Web-Regular';
-    src: url('../../font/Atlas-Grotesk-Web-Regular/Atlas-Grotesk-Web-Regular.eot');
-    src: url('../../font/Atlas-Grotesk-Web-Regular/Atlas-Grotesk-Web-Regular.woff2') format('woff2'),
-        url('../../font/Atlas-Grotesk-Web-Regular/Atlas-Grotesk-Web-Regular.woff') format('woff'),
-        url('../../font/Atlas-Grotesk-Web-Regular/Atlas-Grotesk-Web-Regular.ttf') format('truetype'),
-        url('../../font/Atlas-Grotesk-Web-Regular/Atlas-Grotesk-Web-Regular.svg#Atlas-Grotesk-Web-Regular') format('svg'),
-        url('../../font/Atlas-Grotesk-Web-Regular/Atlas-Grotesk-Web-Regular.eot?#iefix') format('embedded-opentype');
+
+.griffithgothicregular {
+    font-family: "Griffith Gothic Reg";
+    font-display: swap;
+    font-style: normal;
     font-weight: normal;
-    font-style: normal;
 }
+
 @font-face {
-    font-family: 'Atlas-Grotesk-Web-Light';
-    src: url('../../font/Atlas-Grotesk-Web-Light/Atlas-Grotesk-Web-Light.eot');
-    src: url('../../font/Atlas-Grotesk-Web-Light/Atlas-Grotesk-Web-Light.woff2') format('woff2'),
-        url('../../font/Atlas-Grotesk-Web-Light/Atlas-Grotesk-Web-Light.woff') format('woff'),
-        url('../../font/Atlas-Grotesk-Web-Light/Atlas-Grotesk-Web-Light.ttf') format('truetype'),
-        url('../../font/Atlas-Grotesk-Web-Light/Atlas-Grotesk-Web-Light.svg#Atlas-Grotesk-Web-Light') format('svg'),
-        url('../../font/Atlas-Grotesk-Web-Light/Atlas-Grotesk-Web-Light.eot?#iefix') format('embedded-opentype');
-    font-weight: normal;
+    font-family: 'Atlas Grotesk Web';
+    src: url('../../font/AtlasGrotesk-Regular-Web.woff2') format('woff2'),
+    url('../../font/AtlasGrotesk-Regular-Web.woff') format('woff');
+    font-weight: 400;
     font-style: normal;
+    font-stretch: normal;
 }
+.AtlasGrotesk-Regular-Web {
+    font-family: 'Atlas Grotesk Web';
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: 'Atlas Grotesk Web';
+    src: url('../../font/AtlasGrotesk-Light-Web.woff2') format('woff2'),
+    url('../../font/AtlasGrotesk-Light-Web.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+}
+.AtlasGrotesk-Light-Web {
+    font-family: 'Atlas Grotesk Web';
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+
+// @font-face {
+//     font-family: 'Atlas-Grotesk-Web-Regular';
+//     src: url('../../font/Atlas-Grotesk-Web-Regular/Atlas-Grotesk-Web-Regular.eot');
+//     src: url('../../font/Atlas-Grotesk-Web-Regular/Atlas-Grotesk-Web-Regular.woff2') format('woff2'),
+//         url('../../font/Atlas-Grotesk-Web-Regular/Atlas-Grotesk-Web-Regular.woff') format('woff'),
+//         url('../../font/Atlas-Grotesk-Web-Regular/Atlas-Grotesk-Web-Regular.ttf') format('truetype'),
+//         url('../../font/Atlas-Grotesk-Web-Regular/Atlas-Grotesk-Web-Regular.svg#Atlas-Grotesk-Web-Regular') format('svg'),
+//         url('../../font/Atlas-Grotesk-Web-Regular/Atlas-Grotesk-Web-Regular.eot?#iefix') format('embedded-opentype');
+//     font-weight: normal;
+//     font-style: normal;
+// }
+// @font-face {
+//     font-family: 'Atlas-Grotesk-Web-Light';
+//     src: url('../../font/Atlas-Grotesk-Web-Light/Atlas-Grotesk-Web-Light.eot');
+//     src: url('../../font/Atlas-Grotesk-Web-Light/Atlas-Grotesk-Web-Light.woff2') format('woff2'),
+//         url('../../font/Atlas-Grotesk-Web-Light/Atlas-Grotesk-Web-Light.woff') format('woff'),
+//         url('../../font/Atlas-Grotesk-Web-Light/Atlas-Grotesk-Web-Light.ttf') format('truetype'),
+//         url('../../font/Atlas-Grotesk-Web-Light/Atlas-Grotesk-Web-Light.svg#Atlas-Grotesk-Web-Light') format('svg'),
+//         url('../../font/Atlas-Grotesk-Web-Light/Atlas-Grotesk-Web-Light.eot?#iefix') format('embedded-opentype');
+//     font-weight: normal;
+//     font-style: normal;
+// }
+
 
 *{
     padding: 0;
@@ -139,15 +187,11 @@ h1,h2,h3,h4,h5,a,p,span,input,button{
     top: 0;
     bottom: 0;
     height: 100%;
-    // transition-property: all;
-    // transition-duration: 1s;
     z-index: -9;
     
     &.active{
         background: rgba(0, 0, 0, 0.85) !important;
         z-index: 9;
-        // transition-property: all;
-        // transition-duration: 1s;
     }
 }
 .bodyOverflowHidden{
@@ -288,7 +332,6 @@ section.banner{
         left: 50%;
         bottom: 0;
         transform: translateX(-50%);
-        
         max-width: 820px;
         width: 100%;
         margin: 0 auto;
@@ -303,6 +346,7 @@ section.banner{
 
         
         h1{
+            @extend .griffithgothicregular;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -341,7 +385,7 @@ section.banner{
                         padding-bottom: 12px;
                     }
                     p{
-                        font-family: 'Atlas-Grotesk-Web-Regular';
+                        @extend .AtlasGrotesk-Regular-Web;
                         font-size: 11px;
                         line-height: 20px;
                         color: #082645;
@@ -418,7 +462,7 @@ section.private{
                 .content{
                     padding-top: 24px;
                     p{
-                        font-family: 'Atlas-Grotesk-Web-Regular';
+                        @extend .AtlasGrotesk-Regular-Web;
                         font-size: 12px;
                         line-height: 26px;
                         color: #5A6163;
@@ -428,7 +472,7 @@ section.private{
             .bt-wrap{
                 margin-top: 120px;
                 p{
-                    font-family: 'Atlas-Grotesk-Web-Regular';
+                    @extend .AtlasGrotesk-Regular-Web;
                     font-size: 12px;
                     line-height: 26px;
                     color: #60768D;
@@ -466,7 +510,7 @@ section.graph{
         padding: 144px 0;
         .row{
             h2{
-                font-family: 'Griffith-Gothic-Light';
+                @extend .griffithgothiclight;
                 font-weight: 300;
                 font-size: 28px;
                 line-height: 43px;
@@ -475,7 +519,7 @@ section.graph{
             }
             p{
                 width: 100%;
-                font-family: 'Atlas-Grotesk-Web-Regular';
+                @extend .AtlasGrotesk-Regular-Web;
                 font-style: normal;
                 font-weight: normal;
                 font-size: 12px;
@@ -521,7 +565,7 @@ section.graph{
                             }
                             span.per{
                                 opacity: 0;
-                                font-family: 'Atlas-Grotesk-Web-Regular';
+                                @extend .AtlasGrotesk-Regular-Web;
                                 font-size: 13px;
                                 line-height: 26px;
                                 color: #929292;
@@ -646,7 +690,7 @@ section.graph{
                     }
                     p{
                         padding-left: 14px;
-                        font-family: 'Atlas-Grotesk-Web-Regular';
+                        @extend .AtlasGrotesk-Regular-Web;
                         font-size: 13px;
                         line-height: 16px;
                         color: #fff;
@@ -671,7 +715,7 @@ section.portfolio{
         .block-1{
             h2{            
                 padding: 0 116px;
-                font-family: 'Griffith-Gothic-Light';
+                @extend .griffithgothiclight;
                 font-size: 41px;
                 line-height: 60px;
                 color: #000000;
@@ -681,7 +725,7 @@ section.portfolio{
                 padding: 0 116px;
                 margin-top: 18px;
                 p{
-                    font-family: 'Atlas-Grotesk-Web-Light';
+                    @extend .AtlasGrotesk-Light-Web;
                     font-size: 16px;
                     line-height: 24px;
                     color: #60768D;
@@ -700,14 +744,14 @@ section.portfolio{
                             flex-direction: column;
                             align-items: flex-start;                       
                             p{
-                                font-family: 'Atlas-Grotesk-Web-Regular';
+                                @extend .AtlasGrotesk-Regular-Web;
                                 font-size: 12px;
                                 line-height: 26px;
                             }
                             .bt-wrap{
                                 margin-bottom: 40px;
                                 p{
-                                    font-family: 'Atlas-Grotesk-Web-Regular';
+                                    @extend .AtlasGrotesk-Regular-Web;
                                     font-size: 12px;
                                     line-height: 26px;
                                     color: #60768D;
@@ -755,26 +799,27 @@ section.portfolio{
                 justify-content: space-between;
                 align-items: center;
                 padding: 60px 180px;
+                background: rgb(255, 255, 255);
                 background: rgba(255, 255, 255, 0.603529);
                 backdrop-filter: blur(67.957px);
 
                 .col{
                     width: 25%;
                     p{
-                        font-family: 'Atlas-Grotesk-Web-Regular';
+                        @extend .AtlasGrotesk-Regular-Web;
                         font-size: 12px;
                         line-height: 15px;
                         color: #113B65;
                         padding-bottom: 22px;
                     }
                     p.num{
-                        font-family: 'Griffith-Gothic-Light';
+                        @extend .griffithgothiclight;
                         font-size: 40px;
                         line-height: 29px;
                         color: #1F476E;
 
                         span{
-                            font-family: 'Griffith-Gothic-Regular';
+                            @extend .griffithgothicregular;
                             font-size: 17px;
                             line-height: 29px;
                             color: #1F476E;
@@ -798,7 +843,7 @@ section.portfolio{
                     margin-bottom: 20px;
                 }
                 p{
-                    font-family: 'Atlas-Grotesk-Web-Regular';
+                    @extend .AtlasGrotesk-Regular-Web;
                     font-size: 12px;
                     line-height: 26px;
                     color: #000000;
@@ -837,14 +882,14 @@ section.fingertips{
             padding-top: 170px;
             margin-left: 235px;
             h2{
-                font-family: 'Griffith-Gothic-Light';
+                @extend .griffithgothiclight;
                 font-size: 31px;
                 line-height: 48px;
                 color: #FFFFFF;
                 margin-bottom: 40px;
             }
             p{
-                font-family: 'Griffith-Gothic-Light';
+                @extend .griffithgothiclight;
                 font-size: 20px;
                 line-height: 36px;
                 color: #FFFFFF;
@@ -852,7 +897,7 @@ section.fingertips{
             .bt-wrap{
                 margin-top: 80px;
                 p{
-                    font-family: 'Atlas-Grotesk-Web-Regular';
+                    @extend .AtlasGrotesk-Regular-Web;
                     font-size: 12px;
                     line-height: 26px;
                     color: #fff;
@@ -897,7 +942,7 @@ section.work-head {
         width: 100%;
 
         h1 {
-            font-family: 'Atlas-Grotesk-Web-Regular';
+            @extend .AtlasGrotesk-Regular-Web;
             font-size: 49px;
             line-height: 53px;
             text-align: center;
@@ -905,7 +950,7 @@ section.work-head {
             padding-bottom: 72px;
         }
         p{
-            font-family: 'Atlas-Grotesk-Web-Regular';
+            @extend .AtlasGrotesk-Regular-Web;
             font-size: 12px;
             line-height: 26px;
             text-align: center;
@@ -927,7 +972,7 @@ section.elements{
             padding-bottom: 40px;
 
             span{
-                font-family: 'Atlas-Grotesk-Web-Regular';
+                @extend .AtlasGrotesk-Regular-Web;
                 font-size: 12px;
                 line-height: 30px;
                 color: #48606B;
@@ -937,7 +982,7 @@ section.elements{
 
             &.row1{
                 p{
-                    font-family: 'Griffith-Gothic-Light';
+                    @extend .griffithgothiclight;
                     font-size: 61px;
                     line-height: 80px;
                     color: #000000;
@@ -945,7 +990,7 @@ section.elements{
             }
             &.row2{
                 p{
-                    font-family: 'Griffith-Gothic-Light';
+                    @extend .griffithgothiclight;
                     font-size: 41px;
                     line-height: 60px;
                     color: #000000;
@@ -953,7 +998,7 @@ section.elements{
             }
             &.row3{
                 p{
-                    font-family: 'Griffith-Gothic-Regular';
+                    @extend .griffithgothicregular;
                     font-size: 21px;
                     line-height: 30px;
                     color: #48606B;
@@ -961,7 +1006,7 @@ section.elements{
             }
             &.row4{
                 p{
-                    font-family: 'Griffith-Gothic-Regular';
+                    @extend .griffithgothicregular;
                     font-size: 16px;
                     line-height: 29px;
                     color: #000000;
@@ -978,7 +1023,7 @@ section.elements{
             }
             &.row6{
                 p{
-                    font-family: 'Atlas-Grotesk-Web-Light';
+                    @extend .AtlasGrotesk-Light-Web;
                     font-size: 17px;
                     line-height: 36px;
                     color: #60768D;
@@ -988,7 +1033,7 @@ section.elements{
                 p{
                     max-width: 439px;
                     width: 100%;
-                    font-family: 'Atlas-Grotesk-Web-Regular';
+                    @extend .AtlasGrotesk-Regular-Web;
                     font-size: 12px;
                     line-height: 26px;
                     color: #5A6163;
@@ -1028,7 +1073,7 @@ section.work-body{
                     padding: 10px 13px 5px;
                     mix-blend-mode: normal;
                     border: 1px solid rgba(72, 96, 107, 0.4);                    
-                    font-family: 'Atlas-Grotesk-Web-Regular';
+                    @extend .AtlasGrotesk-Regular-Web;
                     font-size: 14px;
                     line-height: 17px;
                     color: #6E8296;
@@ -1056,7 +1101,7 @@ section.work-body{
                 .content{
                     padding-top: 42px;
                     p{
-                        font-family: 'Atlas-Grotesk-Web-Regular';
+                        @extend .AtlasGrotesk-Regular-Web;
                         font-size: 12px;
                         line-height: 26px;
                         color: #5A6163;
@@ -1077,50 +1122,55 @@ section.accordion-body{
         display: block;
         margin: 0 auto;
 
-        .block{
-            mix-blend-mode: normal;
-            border-bottom: 1px solid rgba(151, 151, 151, 0.2);
+        .acc-wrap{
             position: relative;
             
-            .heading{
+            p.sec-desc{
+                position: relative;
+                @extend .AtlasGrotesk-Light-Web;
+                font-size: 17px;
+                line-height: 36px;
+                color: #60768D;
+                padding-right: 40px;
+                border-top: 1px solid rgba(151, 151, 151, 0.2);
+                //border-bottom: 1px solid rgba(151, 151, 151, 0.2);
                 cursor: pointer;
                 padding: 14px 0;
+                padding-left: 10px;
 
-                p{
-                    position: relative;
-                    font-family: 'Atlas-Grotesk-Web-Light';
-                    font-size: 17px;
-                    line-height: 36px;
-                    color: #60768D;
-                    padding-right: 40px;
+                &:first-child{
+                    border-top: 1px solid rgba(151, 151, 151, 0.2);
+                }
 
-                    &.active{
-                        color: #0A253D;
-                        @include transition(.3s ease);
-                    }
-                    &.active::after {
-                        content: '-';
-                        @include transition(.3s ease);
-                    }
-                    &::after {
-                        content: '+';
-                        position: absolute;
-                        right: 10px;
-                        top: 50%;
-                        margin-top: -18px;
-                        display: block;
-                        font-size: 27px;
-                        @include transition(.3s ease);
-                    }
+                &.active{
+                    color: #0A253D;
+                    border-bottom: none;
+                }
+                &.active::after {
+                    content: '-';
+                }
+                &::after {
+                    content: '+';
+                    position: absolute;
+                    right: 10px;
+                    top: 50%;
+                    margin-top: -18px;
+                    display: block;
+                    font-size: 27px;
                 }
             }
+            p.sec-desc-last{
+                border-bottom: 1px solid rgba(151, 151, 151, 0.2);
+            }
             .content{
-                display: none;
-                padding: 20px 0;
-                @include transition(.3s ease);
+                //display: none;
+                max-height: 0;
+                overflow: hidden;
+                
 
                 p{
-                    font-family: 'Atlas-Grotesk-Web-Regular';
+                    padding: 20px 10px;
+                    @extend .AtlasGrotesk-Regular-Web;
                     font-size: 12px;
                     line-height: 26px;
                     color: #5A6163;
@@ -1146,7 +1196,7 @@ footer{
         }
         &:last-child{
             p{
-                font-family: 'Atlas-Grotesk-Web-Regular';
+                @extend .AtlasGrotesk-Regular-Web;
                 font-size: 12px;
                 line-height: 26px;
                 color: #ADA79C;
@@ -1172,7 +1222,7 @@ footer{
                             padding-left: 0;
                         }
                         a{
-                            font-family: 'Atlas-Grotesk-Web-Regular';
+                            @extend .AtlasGrotesk-Regular-Web;
                             font-size: 12px;
                             line-height: 15px;
                             text-align: right;
@@ -1201,7 +1251,7 @@ footer{
                         }
                         button {
                             cursor: pointer;
-                            font-family: 'Griffith-Gothic-Regular';
+                            @extend .griffithgothicregular;
                             font-size: 12px;
                             text-align: center;
                             letter-spacing: 1.94737px;
@@ -1269,3 +1319,5 @@ footer{
         }
     }
 }
+
+

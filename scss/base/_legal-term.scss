@@ -12,7 +12,7 @@ section.legal-term-head{
         padding: 0 100px;
         height: 100%;
         h1{
-            font-family: 'Atlas-Grotesk-Web-Regular';
+            @extend .AtlasGrotesk-Regular-Web;
             font-size: 49px;
             line-height: 53px;
             text-align: center;
@@ -45,7 +45,7 @@ section.legal-term-body{
 
         .row{
             p{
-                font-family: 'Griffith-Gothic-Light';
+                @extend .griffithgothiclight;
                 margin-bottom: 24px;
                 font-size: 14px;
                 line-height: 20px;
@@ -53,7 +53,7 @@ section.legal-term-body{
 
                 strong{
                     font-size: 16px;
-                    font-family: 'Griffith-Gothic-Regular';
+                    @extend .griffithgothicregular;
                     font-weight: bold;
                 }
                 a{
@@ -71,7 +71,7 @@ section.legal-term-body{
                 margin-bottom: 24px;
                 li{
                     list-style-type: lower-roman;
-                    font-family: 'Griffith-Gothic-Light';
+                    @extend .griffithgothiclight;
                     font-size: 14px;
                     line-height: 20px;
                     color: #082645;
@@ -83,7 +83,7 @@ section.legal-term-body{
                 margin-bottom: 24px;
                 li{
                     list-style-type: disc;
-                    font-family: 'Griffith-Gothic-Light';
+                    @extend .griffithgothiclight;
                     font-size: 14px;
                     line-height: 20px;
                     color: #082645;
