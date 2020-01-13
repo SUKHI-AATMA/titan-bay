@@ -547,7 +547,7 @@ section.graph{
                         display: flex;
                         align-items: flex-end;
                         justify-content: space-around;
-                        height: 295px;
+                        height: 300px;
                         border-bottom: 1px solid rgba(150, 150, 150, .4);
                         -webkit-background-clip: padding-box; /* for Safari */
                         background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
@@ -579,28 +579,28 @@ section.graph{
                             }
                         }
                     }
-                    
+                    // height calc by 4.8 x 12 (height of 300,  taken 4% means 12 and multiply with graph percentage)  
                     .graph1{
                         &.active{
                             .col{
                                 .msci{
                                     @include transition(1.5s ease-in-out);
-                                    height: 50px;
+                                    height: 57.6px;
                                     background-color: #677586;
                                 }
                                 .sp{
                                     @include transition(1.5s ease-in-out);
-                                    height: 65px;
+                                    height: 88.8px;
                                     background-color: #706E6A;
                                 }
                                 .pooled{
                                     @include transition(1.5s ease-in-out);
-                                    height: 77px;
+                                    height: 105.6px;
                                     background-color: #E4E0D5;
                                 }
                                 .quartile{
                                     @include transition(1.5s ease-in-out);
-                                    height: 124px;
+                                    height: 182.4px;
                                     background-color: #9DE7D2;
                                 }
                             }
@@ -611,22 +611,22 @@ section.graph{
                             .col{
                                 .msci{
                                     @include transition(1.5s ease-in-out);
-                                    height: 79px;
+                                    height: 115.2px;
                                     background-color: #677586;
                                 }
                                 .sp{
                                     @include transition(1.5s ease-in-out);
-                                    height: 103px;
+                                    height: 228px;
                                     background-color: #706E6A;
                                 }
                                 .pooled{
                                     @include transition(1.5s ease-in-out);
-                                    height: 122px;
+                                    height: 150px;
                                     background-color: #E4E0D5;
                                 }
                                 .quartile{
                                     @include transition(1.5s ease-in-out);
-                                    height: 195px;
+                                    height: 219.6px;
                                     background-color: #9DE7D2;
                                 }
                             }
@@ -637,22 +637,22 @@ section.graph{
                             .col{
                                 .msci{
                                     @include transition(1.5s ease-in-out);
-                                    height: 98px;
+                                    height: 73.2px;
                                     background-color: #677586;
                                 }
                                 .sp{
                                     @include transition(1.5s ease-in-out);
-                                    height: 129px;
+                                    height: 84px;
                                     background-color: #706E6A;
                                 }
                                 .pooled{
                                     @include transition(1.5s ease-in-out);
-                                    height: 152px;
+                                    height: 152.4px;
                                     background-color: #E4E0D5;
                                 }
                                 .quartile{
                                     @include transition(1.5s ease-in-out);
-                                    height: 245px;
+                                    height: 222px;
                                     background-color: #9DE7D2;
                                 }
                             }
@@ -1223,6 +1223,23 @@ section.accordion-body{
                     font-size: 12px;
                     line-height: 26px;
                     color: #5A6163;
+                }
+                ul{
+                    margin-left: 27px;
+                    margin-bottom: 24px;
+                    li{
+                        list-style-type: disc;
+                        @extend .AtlasGrotesk-Regular-Web;
+                        font-size: 12px;
+                        line-height: 20px;
+                        color: #5A6163;
+                        padding-left: 4px;
+                        padding-bottom: 12px;
+
+                        &:last-child{
+                            padding-bottom: 0;
+                        }
+                    }
                 }
             }
         }
