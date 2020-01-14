@@ -90,9 +90,22 @@
         max-width: 100%;
         padding: 100px 60px;
     }
+    section.banner-work,
+    section.legal-term-head{
+        height: 60vh;
+    }
+    section.banner-work .container .box h1 {
+        padding: 24px 120px;
+        font-size: 40px;
+        line-height: 58px;
+    }
+    section.legal-term-body .container{
+        margin-top: -120px;
+    }
 
 }
 
+@media screen and (max-width:1024px){}
 
 @media screen and (max-width:991px){
 
@@ -209,11 +222,6 @@
     }
     section.accordion-body{
         padding: 80px 0;
-    }
-    section.banner-work .container .box h1 {
-        padding: 24px 120px;
-        font-size: 40px;
-        line-height: 58px;
     }
     section.path-private .container h2 {
         font-size: 22px;
@@ -371,18 +379,17 @@
     }
 
     // legal page
-    section.legal-term-head{
-        height:60vh;
-    }
+    // section.legal-term-head{
+    //     height:60vh;
+    // }
     section.legal-term-body .container{
         max-width: 85%;
         padding: 50px 20px;
-        margin-top: -150px;
     }
 
 
      // how it work
-     section.banner-work .container .box h1 {
+    section.banner-work .container .box h1 {
         padding: 20px 80px;
         font-size: 32px;
         line-height: 48px;
