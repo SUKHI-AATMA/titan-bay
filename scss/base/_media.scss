@@ -109,13 +109,15 @@
     section.banner{
         height: calc(var(--vh, 1vh) * 100);
     }
+    section.banner .parallax,
+    section.banner-work .parallax{
+        background-attachment: scroll;
+    }
 }
 
 @media screen and (max-width:991px){
 
-    section.banner .parallax{
-        background-attachment: scroll;
-    }
+    
     section.banner .container{
         max-width: 100%;
         padding: 0 30px;
