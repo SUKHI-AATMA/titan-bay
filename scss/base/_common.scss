@@ -362,8 +362,8 @@ section.banner{
                     }
                     p{
                         @extend .AtlasGrotesk-Regular-Web;
-                        font-size: 11px;
-                        line-height: 20px;
+                        font-size: 14px;
+                        line-height: 23px;
                         color: #082645;
                     }
                 }
@@ -439,8 +439,8 @@ section.private{
                     padding-top: 24px;
                     p{
                         @extend .AtlasGrotesk-Regular-Web;
-                        font-size: 12px;
-                        line-height: 26px;
+                        font-size: 14px;
+                        line-height: 28px;
                         color: #5A6163;
                     }
                 }
@@ -496,10 +496,8 @@ section.graph{
             p{
                 width: 100%;
                 @extend .AtlasGrotesk-Regular-Web;
-                font-style: normal;
-                font-weight: normal;
-                font-size: 12px;
-                line-height: 26px;
+                font-size: 14px;
+                line-height: 28px;
                 color: #fff;
             }
 
@@ -721,8 +719,8 @@ section.portfolio{
                             align-items: flex-start;                       
                             p{
                                 @extend .AtlasGrotesk-Regular-Web;
-                                font-size: 12px;
-                                line-height: 26px;
+                                font-size: 14px;
+                                line-height: 28px;
                             }
                             .bt-wrap{
                                 margin-bottom: 40px;
@@ -1008,9 +1006,9 @@ section.path-private{
         }
         .row{
             > p{
-                font-size: 12px;
-                line-height: 26px;
-                color: #BDBDBD;
+                font-size: 16px;
+                line-height: 33px;
+                color: #757575;
                 padding-bottom: 52px;
             }
             .path-wrap{
@@ -1120,8 +1118,8 @@ section.work-body{
                     padding-top: 24px;
                     p{
                         @extend .AtlasGrotesk-Regular-Web;
-                        font-size: 12px;
-                        line-height: 26px;
+                        font-size: 14px;
+                        line-height: 28px;
                         color: #A0A3A6;;
                         padding-bottom: 16px;
                     }
@@ -1196,8 +1194,8 @@ section.accordion-body{
                 p{
                     padding: 20px 10px;
                     @extend .AtlasGrotesk-Regular-Web;
-                    font-size: 12px;
-                    line-height: 26px;
+                    font-size: 14px;
+                    line-height: 28px;
                     color: #5A6163;
                 }
                 ul{
@@ -1206,8 +1204,8 @@ section.accordion-body{
                     li{
                         list-style-type: disc;
                         @extend .AtlasGrotesk-Regular-Web;
-                        font-size: 12px;
-                        line-height: 20px;
+                        font-size: 14px;
+                        line-height: 24px;
                         color: #5A6163;
                         padding-left: 4px;
                         padding-bottom: 12px;
