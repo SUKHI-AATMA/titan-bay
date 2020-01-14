@@ -105,7 +105,11 @@
 
 }
 
-@media screen and (max-width:1024px){}
+@media screen and (max-width:1024px){
+    section.banner{
+        height: calc(var(--vh, 1vh) * 100);
+    }
+}
 
 @media screen and (max-width:991px){
 
@@ -507,9 +511,7 @@
         }
     }
 
-    section.banner{
-        height: calc(var(--vh, 1vh) * 100);
-    }
+   
     section.banner .container h1,
     section.legal-term-head .container h1 {
         font-size: 30px;
